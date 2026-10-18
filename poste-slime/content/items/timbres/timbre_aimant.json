@@ -1,0 +1,13 @@
+{
+  "id": "timbre_aimant",
+  "name": "Aimant",
+  "desc": "Pickup/fusion + faciles.",
+  "rarity": "common",
+  "effects": [
+    {
+      "stat": "pickup_radius",
+      "op": "add",
+      "value": 30
+    }
+  ]
+}

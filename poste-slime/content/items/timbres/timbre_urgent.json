@@ -1,0 +1,18 @@
+{
+  "id": "timbre_urgent",
+  "name": "Urgent",
+  "desc": "+25% vitesse, -15% PV.",
+  "rarity": "common",
+  "effects": [
+    {
+      "stat": "speed_mult",
+      "op": "mul",
+      "value": 1.25
+    },
+    {
+      "stat": "hp_mult",
+      "op": "mul",
+      "value": 0.85
+    }
+  ]
+}

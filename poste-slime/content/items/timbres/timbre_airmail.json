@@ -1,0 +1,13 @@
+{
+  "id": "timbre_airmail",
+  "name": "Airmail",
+  "desc": "Dash +30% durée.",
+  "rarity": "rare",
+  "effects": [
+    {
+      "stat": "dash_time_mult",
+      "op": "mul",
+      "value": 1.3
+    }
+  ]
+}

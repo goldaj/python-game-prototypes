@@ -1,0 +1,13 @@
+{
+  "id": "timbre_contre_cachet",
+  "name": "Contre-cachet",
+  "desc": "+30% dégâts onde.",
+  "rarity": "rare",
+  "effects": [
+    {
+      "stat": "wave_mult",
+      "op": "mul",
+      "value": 1.3
+    }
+  ]
+}

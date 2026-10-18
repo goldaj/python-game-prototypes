@@ -1,0 +1,13 @@
+{
+  "id": "timbre_epine",
+  "name": "Épine",
+  "desc": "Contact DoT léger.",
+  "rarity": "common",
+  "effects": [
+    {
+      "stat": "contact_dot",
+      "op": "set",
+      "value": 1
+    }
+  ]
+}

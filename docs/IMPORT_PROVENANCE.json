@@ -1,0 +1,354 @@
+{
+  "import_date": "2026-10-18",
+  "note": "Originals and source mappings remain local. Public configuration edits are described in README.",
+  "files": [
+    {
+      "path": "poste-slime/main.py",
+      "source_group": "poste-slime-v3d",
+      "published_sha256": "f14f693178717c419fd46d9317a49b9e2cd6a027a235fa9754f719590be3c955",
+      "source_sha256": "f14f693178717c419fd46d9317a49b9e2cd6a027a235fa9754f719590be3c955"
+    },
+    {
+      "path": "poste-slime/README.txt",
+      "source_group": "poste-slime-v3d",
+      "published_sha256": "d42c665f07c6ef378c8976e057b6f199344ee00cdea992ab8aa65b72e436bf8b",
+      "source_sha256": "d42c665f07c6ef378c8976e057b6f199344ee00cdea992ab8aa65b72e436bf8b"
+    },
+    {
+      "path": "poste-slime/requirements.txt",
+      "source_group": "poste-slime-v3d",
+      "published_sha256": "a3a4e93d5aa42a365795521a3fc9018ee997835e3a7687c252b1ab348453831f",
+      "source_sha256": "a3a4e93d5aa42a365795521a3fc9018ee997835e3a7687c252b1ab348453831f"
+    },
+    {
+      "path": "poste-slime/assets/img/arrow.png",
+      "source_group": "poste-slime-v3d",
+      "published_sha256": "489286d7eec7f3e0eb45e10eb4ec8c1dd850d09df2908201df686dc6678c995f",
+      "source_sha256": "489286d7eec7f3e0eb45e10eb4ec8c1dd850d09df2908201df686dc6678c995f"
+    },
+    {
+      "path": "poste-slime/assets/img/card.png",
+      "source_group": "poste-slime-v3d",
+      "published_sha256": "816134256f3ac03994cc487c8b64e219a0005a00c6439669f5a9283b8d44fd5e",
+      "source_sha256": "816134256f3ac03994cc487c8b64e219a0005a00c6439669f5a9283b8d44fd5e"
+    },
+    {
+      "path": "poste-slime/assets/img/check.png",
+      "source_group": "poste-slime-v3d",
+      "published_sha256": "96edf8004bc3a1acab30f13d648b6ee5221a618d2cca0a4dfd3bae844b1dc200",
+      "source_sha256": "96edf8004bc3a1acab30f13d648b6ee5221a618d2cca0a4dfd3bae844b1dc200"
+    },
+    {
+      "path": "poste-slime/assets/img/cross.png",
+      "source_group": "poste-slime-v3d",
+      "published_sha256": "d594d4b7846c61bf36ee19741296d0f21c2ec1e0488bc53231046f277c13ebda",
+      "source_sha256": "d594d4b7846c61bf36ee19741296d0f21c2ec1e0488bc53231046f277c13ebda"
+    },
+    {
+      "path": "poste-slime/assets/img/door.png",
+      "source_group": "poste-slime-v3d",
+      "published_sha256": "25daa2f1a3348f5b4aeb451c0b24efa87df69df6f6289cc3c1e2646195ed86f2",
+      "source_sha256": "25daa2f1a3348f5b4aeb451c0b24efa87df69df6f6289cc3c1e2646195ed86f2"
+    },
+    {
+      "path": "poste-slime/assets/img/enemy_crab.png",
+      "source_group": "poste-slime-v3d",
+      "published_sha256": "3344886d903ce47bc4698a09bb6c83951e4d0d08367b9c3a992d67f4bb60a02f",
+      "source_sha256": "3344886d903ce47bc4698a09bb6c83951e4d0d08367b9c3a992d67f4bb60a02f"
+    },
+    {
+      "path": "poste-slime/assets/img/enemy_mole.png",
+      "source_group": "poste-slime-v3d",
+      "published_sha256": "aeeeae0ff94a8195713f4e369427413e4af8db35c48dc7334ed993ae4ed1e64f",
+      "source_sha256": "aeeeae0ff94a8195713f4e369427413e4af8db35c48dc7334ed993ae4ed1e64f"
+    },
+    {
+      "path": "poste-slime/assets/img/enemy_owl.png",
+      "source_group": "poste-slime-v3d",
+      "published_sha256": "0a3ac7833ef1ea0376db7e8fc1473870968cb60217c1f70697144925f0d0becf",
+      "source_sha256": "0a3ac7833ef1ea0376db7e8fc1473870968cb60217c1f70697144925f0d0becf"
+    },
+    {
+      "path": "poste-slime/assets/img/enemy_runner.png",
+      "source_group": "poste-slime-v3d",
+      "published_sha256": "26764c215717ef03992ad9f3b7df7af0edbc053a0ad70f599d65499a6dd517d2",
+      "source_sha256": "26764c215717ef03992ad9f3b7df7af0edbc053a0ad70f599d65499a6dd517d2"
+    },
+    {
+      "path": "poste-slime/assets/img/house_224.png",
+      "source_group": "poste-slime-v3d",
+      "published_sha256": "ba778f5d79b985fb37be4767c92e49b53d1e398d9bb6d6d02c359dc9d85494a3",
+      "source_sha256": "ba778f5d79b985fb37be4767c92e49b53d1e398d9bb6d6d02c359dc9d85494a3"
+    },
+    {
+      "path": "poste-slime/assets/img/house_232.png",
+      "source_group": "poste-slime-v3d",
+      "published_sha256": "5fc2560abdef193578381d9b680a0407f7038f2181f895ba55d1fc660b683f80",
+      "source_sha256": "5fc2560abdef193578381d9b680a0407f7038f2181f895ba55d1fc660b683f80"
+    },
+    {
+      "path": "poste-slime/assets/img/house_238.png",
+      "source_group": "poste-slime-v3d",
+      "published_sha256": "79affb02092ad12bb04805abed8e9b4088a36b075b17bd48a9fec409dc54fad9",
+      "source_sha256": "79affb02092ad12bb04805abed8e9b4088a36b075b17bd48a9fec409dc54fad9"
+    },
+    {
+      "path": "poste-slime/assets/img/mailbox.png",
+      "source_group": "poste-slime-v3d",
+      "published_sha256": "0c3cee03d4c5f9f1b3283525432b8257b5dbf2d03a25cde3193b99e7ce60e1cf",
+      "source_sha256": "0c3cee03d4c5f9f1b3283525432b8257b5dbf2d03a25cde3193b99e7ce60e1cf"
+    },
+    {
+      "path": "poste-slime/assets/img/slime_0.png",
+      "source_group": "poste-slime-v3d",
+      "published_sha256": "50137ea2dba5b8915824f6b876d4a4315d1661171f4f39daf39d2fe70432f51a",
+      "source_sha256": "50137ea2dba5b8915824f6b876d4a4315d1661171f4f39daf39d2fe70432f51a"
+    },
+    {
+      "path": "poste-slime/assets/img/slime_1.png",
+      "source_group": "poste-slime-v3d",
+      "published_sha256": "b539d913595db093caf07c67aae6b42cdaf15029a1f582e694ad7155e38fd1a5",
+      "source_sha256": "b539d913595db093caf07c67aae6b42cdaf15029a1f582e694ad7155e38fd1a5"
+    },
+    {
+      "path": "poste-slime/assets/img/slime_2.png",
+      "source_group": "poste-slime-v3d",
+      "published_sha256": "1d9f8085f0120ef127081d34b183db8b354d73f0453d7f11d036295226001253",
+      "source_sha256": "1d9f8085f0120ef127081d34b183db8b354d73f0453d7f11d036295226001253"
+    },
+    {
+      "path": "poste-slime/assets/img/tile_paper.png",
+      "source_group": "poste-slime-v3d",
+      "published_sha256": "c95f5d8ab32844677bb786b93c4e228c205d50a7ee9f1aeb0c7229e96954c7a2",
+      "source_sha256": "c95f5d8ab32844677bb786b93c4e228c205d50a7ee9f1aeb0c7229e96954c7a2"
+    },
+    {
+      "path": "poste-slime/assets/img/tile_road.png",
+      "source_group": "poste-slime-v3d",
+      "published_sha256": "cd4cbfd8855da97140492f7a6a878724c403411be4d8ad6d644896d5ee965429",
+      "source_sha256": "cd4cbfd8855da97140492f7a6a878724c403411be4d8ad6d644896d5ee965429"
+    },
+    {
+      "path": "poste-slime/assets/img/tile_sidewalk.png",
+      "source_group": "poste-slime-v3d",
+      "published_sha256": "b04c0387320a0dcbce4abfd65746d7a687e7231813f9477225ea8d1bd004d326",
+      "source_sha256": "b04c0387320a0dcbce4abfd65746d7a687e7231813f9477225ea8d1bd004d326"
+    },
+    {
+      "path": "poste-slime/assets/sfx/boing.wav",
+      "source_group": "poste-slime-v3d",
+      "published_sha256": "f15adc92d11adaf180d63274a0eeca22442ec036f3fa4d46a9bd867245f080e2",
+      "source_sha256": "f15adc92d11adaf180d63274a0eeca22442ec036f3fa4d46a9bd867245f080e2"
+    },
+    {
+      "path": "poste-slime/assets/sfx/schplaf.wav",
+      "source_group": "poste-slime-v3d",
+      "published_sha256": "1b42396200dfc840a8e4d8831bcf1e82681d76ef4a0bf4f549347e847decaef7",
+      "source_sha256": "1b42396200dfc840a8e4d8831bcf1e82681d76ef4a0bf4f549347e847decaef7"
+    },
+    {
+      "path": "poste-slime/assets/sfx/stamp.wav",
+      "source_group": "poste-slime-v3d",
+      "published_sha256": "a102c3e5bf9436f7075ada81d54b55e4f3ea114023d7227e51fe9968f9e35135",
+      "source_sha256": "a102c3e5bf9436f7075ada81d54b55e4f3ea114023d7227e51fe9968f9e35135"
+    },
+    {
+      "path": "poste-slime/content/items/timbres/timbre_aimant.json",
+      "source_group": "poste-slime-v3d",
+      "published_sha256": "cacbb0bf358222ef9eb473852f4051ad5a3733129ca803cdcd52c60e15e47148",
+      "source_sha256": "cacbb0bf358222ef9eb473852f4051ad5a3733129ca803cdcd52c60e15e47148"
+    },
+    {
+      "path": "poste-slime/content/items/timbres/timbre_airmail.json",
+      "source_group": "poste-slime-v3d",
+      "published_sha256": "c422b29d62a4e77667e1a050a9dd3aed519daa912320bb429f0c4e6384c9a304",
+      "source_sha256": "c422b29d62a4e77667e1a050a9dd3aed519daa912320bb429f0c4e6384c9a304"
+    },
+    {
+      "path": "poste-slime/content/items/timbres/timbre_contre_cachet.json",
+      "source_group": "poste-slime-v3d",
+      "published_sha256": "4a85fe30af95a678f2d85d1de4dfac4c23c219eb18c9e3ccf1a5dd6d612dc209",
+      "source_sha256": "4a85fe30af95a678f2d85d1de4dfac4c23c219eb18c9e3ccf1a5dd6d612dc209"
+    },
+    {
+      "path": "poste-slime/content/items/timbres/timbre_epine.json",
+      "source_group": "poste-slime-v3d",
+      "published_sha256": "d00e9650b3a86ed7f89c7bba5c353942ccabaf5781e359c0fdf8b3ccf2b3bccf",
+      "source_sha256": "d00e9650b3a86ed7f89c7bba5c353942ccabaf5781e359c0fdf8b3ccf2b3bccf"
+    },
+    {
+      "path": "poste-slime/content/items/timbres/timbre_urgent.json",
+      "source_group": "poste-slime-v3d",
+      "published_sha256": "7a6769c1b0e46ffded50099f36f832a8c7928f41196067355938d40d491a1886",
+      "source_sha256": "7a6769c1b0e46ffded50099f36f832a8c7928f41196067355938d40d491a1886"
+    },
+    {
+      "path": "pixel-patchwork/main.py",
+      "source_group": "pixel-patchwork-v2d",
+      "published_sha256": "eb1cea6db83a0142345b9d6afa551d477684fd16e0182d0630c262f711991d09",
+      "source_sha256": "eb1cea6db83a0142345b9d6afa551d477684fd16e0182d0630c262f711991d09"
+    },
+    {
+      "path": "pixel-patchwork/README.txt",
+      "source_group": "pixel-patchwork-v2d",
+      "published_sha256": "f5f8c73182a53cb300e9bf6c27fe1b0c029d9d024819fba207942120e5eb91c0",
+      "source_sha256": "f5f8c73182a53cb300e9bf6c27fe1b0c029d9d024819fba207942120e5eb91c0"
+    },
+    {
+      "path": "pixel-patchwork/requirements.txt",
+      "source_group": "pixel-patchwork-v2d",
+      "published_sha256": "a3a4e93d5aa42a365795521a3fc9018ee997835e3a7687c252b1ab348453831f",
+      "source_sha256": "a3a4e93d5aa42a365795521a3fc9018ee997835e3a7687c252b1ab348453831f"
+    },
+    {
+      "path": "pixel-patchwork/assets/img/btn_large.png",
+      "source_group": "pixel-patchwork-v2d",
+      "published_sha256": "75a9860344fe3c8b5f20c961fcad03963eaef521eb82c13b2c0d370ac9bb17d5",
+      "source_sha256": "75a9860344fe3c8b5f20c961fcad03963eaef521eb82c13b2c0d370ac9bb17d5"
+    },
+    {
+      "path": "pixel-patchwork/assets/img/btn_primary.png",
+      "source_group": "pixel-patchwork-v2d",
+      "published_sha256": "07529996ab2aa23e70af7d767316fc24bd843de22a726d2bb99a81be9767ae54",
+      "source_sha256": "07529996ab2aa23e70af7d767316fc24bd843de22a726d2bb99a81be9767ae54"
+    },
+    {
+      "path": "pixel-patchwork/assets/img/card.png",
+      "source_group": "pixel-patchwork-v2d",
+      "published_sha256": "ac63ecf2d4dfbe9f3823a792cbca7aebb454db25eaa80f7846a01d257d54d1bf",
+      "source_sha256": "ac63ecf2d4dfbe9f3823a792cbca7aebb454db25eaa80f7846a01d257d54d1bf"
+    },
+    {
+      "path": "pixel-patchwork/assets/img/chip_coral.png",
+      "source_group": "pixel-patchwork-v2d",
+      "published_sha256": "5dc7c1b00a42e51b6de82c99d1717b6645086aa29e5fb4c71406e8c9ad393bbe",
+      "source_sha256": "5dc7c1b00a42e51b6de82c99d1717b6645086aa29e5fb4c71406e8c9ad393bbe"
+    },
+    {
+      "path": "pixel-patchwork/assets/img/chip_gold.png",
+      "source_group": "pixel-patchwork-v2d",
+      "published_sha256": "0f097e09164495d04aa8766345d39c30e9dd51581385eddee3eb10e4f454ca83",
+      "source_sha256": "0f097e09164495d04aa8766345d39c30e9dd51581385eddee3eb10e4f454ca83"
+    },
+    {
+      "path": "pixel-patchwork/assets/img/chip_lav.png",
+      "source_group": "pixel-patchwork-v2d",
+      "published_sha256": "c0a67a76a76628a15ca57c0488f47678f9a8416185ec76c9737429adf25514a7",
+      "source_sha256": "c0a67a76a76628a15ca57c0488f47678f9a8416185ec76c9737429adf25514a7"
+    },
+    {
+      "path": "pixel-patchwork/assets/img/chip_mint.png",
+      "source_group": "pixel-patchwork-v2d",
+      "published_sha256": "4666bef65531d6a2d8f497f2a4f4b303174a145a962089d8ff8fba77c255f89c",
+      "source_sha256": "4666bef65531d6a2d8f497f2a4f4b303174a145a962089d8ff8fba77c255f89c"
+    },
+    {
+      "path": "pixel-patchwork/assets/img/ico_back.png",
+      "source_group": "pixel-patchwork-v2d",
+      "published_sha256": "43a224f9c934c6232d558d44d1fb456a0f23ff3a315595d765539615de7e465c",
+      "source_sha256": "43a224f9c934c6232d558d44d1fb456a0f23ff3a315595d765539615de7e465c"
+    },
+    {
+      "path": "pixel-patchwork/assets/img/ico_place.png",
+      "source_group": "pixel-patchwork-v2d",
+      "published_sha256": "633ac01ce774a0428c2bdd520f980ffbccb45b1e5b2ec6fa2f037b1aee0f7539",
+      "source_sha256": "633ac01ce774a0428c2bdd520f980ffbccb45b1e5b2ec6fa2f037b1aee0f7539"
+    },
+    {
+      "path": "pixel-patchwork/assets/img/ico_reroll.png",
+      "source_group": "pixel-patchwork-v2d",
+      "published_sha256": "94ac8d82df5b0924611f32a80eb83b98089c88339f01dcc5b1e8954de2f8dd8d",
+      "source_sha256": "94ac8d82df5b0924611f32a80eb83b98089c88339f01dcc5b1e8954de2f8dd8d"
+    },
+    {
+      "path": "pixel-patchwork/assets/img/ico_restart.png",
+      "source_group": "pixel-patchwork-v2d",
+      "published_sha256": "c9f54a24bf2f7a437a71c98eec2900e5e1e7d86e3046e52bbe936872c12ec6d5",
+      "source_sha256": "c9f54a24bf2f7a437a71c98eec2900e5e1e7d86e3046e52bbe936872c12ec6d5"
+    },
+    {
+      "path": "pixel-patchwork/assets/img/panel_center.png",
+      "source_group": "pixel-patchwork-v2d",
+      "published_sha256": "c625c107d4237c6bd6d3b17533ccbde4f693d401235891d3e5a125b253f75f17",
+      "source_sha256": "c625c107d4237c6bd6d3b17533ccbde4f693d401235891d3e5a125b253f75f17"
+    },
+    {
+      "path": "pixel-patchwork/assets/img/panel_header.png",
+      "source_group": "pixel-patchwork-v2d",
+      "published_sha256": "5162793eef90e144cc637738ef53eb4db6ebe8efffa592e9166e1c48619fe0c3",
+      "source_sha256": "5162793eef90e144cc637738ef53eb4db6ebe8efffa592e9166e1c48619fe0c3"
+    },
+    {
+      "path": "pixel-patchwork/assets/img/panel_sidebar.png",
+      "source_group": "pixel-patchwork-v2d",
+      "published_sha256": "d5e9326c4cc07b45417135ecaae5fcd5edad33eeed3be01b4042120e3c0e9b58",
+      "source_sha256": "d5e9326c4cc07b45417135ecaae5fcd5edad33eeed3be01b4042120e3c0e9b58"
+    },
+    {
+      "path": "pixel-patchwork/assets/img/tile_paper.png",
+      "source_group": "pixel-patchwork-v2d",
+      "published_sha256": "06908c796ca66b35ede1caad1a8b6b7d68e493d35c4b821db767faeb59946f89",
+      "source_sha256": "06908c796ca66b35ede1caad1a8b6b7d68e493d35c4b821db767faeb59946f89"
+    },
+    {
+      "path": "pixel-patchwork/assets/sfx/card.wav",
+      "source_group": "pixel-patchwork-v2d",
+      "published_sha256": "add86df7bc47acb448151aa4c33e12a16415dbadf41cc0f1ed6262991116debe",
+      "source_sha256": "add86df7bc47acb448151aa4c33e12a16415dbadf41cc0f1ed6262991116debe"
+    },
+    {
+      "path": "pixel-patchwork/assets/sfx/invalid.wav",
+      "source_group": "pixel-patchwork-v2d",
+      "published_sha256": "8c384c0797b92d75cbcfa870e9024899b065101da329319096de81beaa49b8fe",
+      "source_sha256": "8c384c0797b92d75cbcfa870e9024899b065101da329319096de81beaa49b8fe"
+    },
+    {
+      "path": "pixel-patchwork/assets/sfx/place.wav",
+      "source_group": "pixel-patchwork-v2d",
+      "published_sha256": "0995d4299ceb1eaf2a5463a3d16c0be59388de09702f96db93d134b75339938e",
+      "source_sha256": "0995d4299ceb1eaf2a5463a3d16c0be59388de09702f96db93d134b75339938e"
+    },
+    {
+      "path": "pixel-patchwork/assets/sfx/score.wav",
+      "source_group": "pixel-patchwork-v2d",
+      "published_sha256": "52e733806555721ffc1cdc606b72e4d4864f7f21796c9658dcf6a05902ed57cf",
+      "source_sha256": "52e733806555721ffc1cdc606b72e4d4864f7f21796c9658dcf6a05902ed57cf"
+    },
+    {
+      "path": "pong/pong.py",
+      "source_group": "pong-jp",
+      "published_sha256": "2c5725f39869acf39b377705e2dd5f105af0d3a3d6d7d01e9716ebeaed12c98b",
+      "source_sha256": "2c5725f39869acf39b377705e2dd5f105af0d3a3d6d7d01e9716ebeaed12c98b"
+    },
+    {
+      "path": "pong/requirements.txt",
+      "source_group": "pong-jp",
+      "published_sha256": "7a0d435a848ecf61b598c34a5913e9ccec72ac3aa3af6c8fd915b0c9052a2ddd",
+      "source_sha256": "7a0d435a848ecf61b598c34a5913e9ccec72ac3aa3af6c8fd915b0c9052a2ddd"
+    },
+    {
+      "path": "frog-crossing/main.py",
+      "source_group": "frog-crossing-tkinter",
+      "published_sha256": "5a20ad89ea1da4693ee3601def6daa5551b4b7e8471df8e0193df25c5630b6f2",
+      "source_sha256": "5a20ad89ea1da4693ee3601def6daa5551b4b7e8471df8e0193df25c5630b6f2"
+    },
+    {
+      "path": "maze-roguelite/main.py",
+      "source_group": "pygame-misc",
+      "published_sha256": "28a0da0ec318c2fe2c8d77945ba9da070bc20a57d754ff4c06ff6e2a7f6f3cdc",
+      "source_sha256": "28a0da0ec318c2fe2c8d77945ba9da070bc20a57d754ff4c06ff6e2a7f6f3cdc"
+    },
+    {
+      "path": "endless-platformer/main.py",
+      "source_group": "pygame-misc",
+      "published_sha256": "247de5b8835da1d2514ff173d1f81fb3b2bf8540f04955364d9e4db42fd1f592",
+      "source_sha256": "247de5b8835da1d2514ff173d1f81fb3b2bf8540f04955364d9e4db42fd1f592"
+    },
+    {
+      "path": "tower-defense/main.py",
+      "source_group": "pygame-misc",
+      "published_sha256": "ba5df1da624c7260382794533e8242a08752ba6004d00ceccc1251b75cdf3111",
+      "source_sha256": "ba5df1da624c7260382794533e8242a08752ba6004d00ceccc1251b75cdf3111"
+    }
+  ]
+}
