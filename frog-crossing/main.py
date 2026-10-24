@@ -52,6 +52,7 @@ class FroggerGame:
         self.score = 0
         self.game_over = False
         self.cars = []
+        self.spawn_after_id = None
 
         self.draw_world()
         self.create_frog()
@@ -127,8 +128,14 @@ class FroggerGame:
         x1, y1, x2, y2 = self.canvas.coords(self.frog)
 
         # Keep frog inside screen
-        if x1 < 0 or x2 > WIDTH or y2 > HEIGHT:
+        if x1 < 0 or x2 > WIDTH or y1 < 0 or y2 > HEIGHT:
             self.canvas.move(self.frog, -dx, -dy)
+            return
+
+        # Immediate collision detection, including moves into stationary cars.
+        self.check_collisions()
+        if self.game_over:
+            return
 
         # Reached goal
         if y1 <= GRID:
@@ -155,7 +162,7 @@ class FroggerGame:
         )
 
         self.cars.append((car, direction))
-        self.root.after(900, self.spawn_cars)
+        self.spawn_after_id = self.root.after(900, self.spawn_cars)
 
     def game_loop(self):
         if not self.game_over:
@@ -194,7 +201,12 @@ class FroggerGame:
         )
 
     def end_game(self):
+        if self.game_over:
+            return
         self.game_over = True
+        if self.spawn_after_id is not None:
+            self.root.after_cancel(self.spawn_after_id)
+            self.spawn_after_id = None
         self.canvas.create_text(
             WIDTH // 2, HEIGHT // 2 + 120,
             fill="white",
@@ -211,6 +223,9 @@ class FroggerGame:
         if not self.game_over:
             return
 
+        if self.spawn_after_id is not None:
+            self.root.after_cancel(self.spawn_after_id)
+            self.spawn_after_id = None
         self.canvas.delete("all")
         self.cars.clear()
         self.speed = INITIAL_SPEED
