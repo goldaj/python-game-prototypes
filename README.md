@@ -19,3 +19,7 @@ Les ressources nécessaires aux variantes Poste-Slime et Pixel Patchwork accompa
 État de validation : analyse syntaxique des fichiers Python lors de l’import ; les sessions de jeu complètes, l’équilibrage, les performances et la compatibilité sur différentes machines restent à vérifier. Ces prototypes ne constituent pas des jeux finalisés.
 
 Les deux copies locales de Poste-Slime v3d étaient identiques pour le code et les contenus JSON ; elles sont représentées par un seul dossier ici. Les autres projets existants sur GitHub ont été comparés avant l’import pour éviter de créer des copies de dépôts.
+
+## Tower Defense : nouvelle boucle de gameplay (29 octobre 2026)
+
+Le mini-jeu Tower Defense reçoit une **économie réelle de pièces, trois types de tours achetables et améliorables, des vagues progressives et un boss toutes les cinq vagues**. Code Pygame dans `tower-defense/main.py`, moteur de règles indépendant dans `tower-defense/rules.py`. Tests et simulateur de balance reproductible. L'ancienne version est préservée dans `tower-defense/legacy_main.py`. Lire [tower-defense/README.md](tower-defense/README.md).

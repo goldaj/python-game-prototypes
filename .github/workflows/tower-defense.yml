@@ -1,0 +1,19 @@
+name: Tower Defense v2
+on:
+  push:
+    branches: [main, 'feat/**']
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m unittest discover -s tests -p 'test_tower_defense.py' -v
+      - run: python tools/balance_tower_defense.py
+      - run: python -m py_compile tower-defense/rules.py tower-defense/main.py
