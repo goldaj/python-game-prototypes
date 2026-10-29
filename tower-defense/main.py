@@ -39,7 +39,7 @@ def draw():
         size=20 if enemy.kind=="boss" else 13 if enemy.kind=="tank" else 10
         pygame.draw.circle(screen,enemycolors[enemy.kind],(x,y),size)
         if enemy.slow>0:pygame.draw.circle(screen,(85,235,244),(x,y),size+4,2)
-        maximum=__import__("rules").ENEMIES[enemy.kind]["hp"]*(1+.14*(enemy.wave-1))
+        maximum=__import__("rules").ENEMIES[enemy.kind]["hp"]*(1+.32*(enemy.wave-1))
         pygame.draw.rect(screen,(75,35,38),(x-size,y-size-11,size*2,4))
         pygame.draw.rect(screen,(95,223,133),(x-size,y-size-11,int(size*2*max(0,enemy.hp)/maximum),4))
     pygame.draw.rect(screen,(30,34,55),(WIDTH,0,PANEL,HEIGHT))

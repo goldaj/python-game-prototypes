@@ -22,7 +22,7 @@ python main.py
 `tower-defense/rules.py` contient le moteur sans dépendance graphique : cheminements exacts, placement, économie, niveaux, vagues, ciblage, dégâts, ralentissement. `main.py` n'est plus qu'un écran Pygame et le pilotage. Le moteur permet des essais de balance reproductibles.
 
 ## Équilibrage
-`python tools/balance_tower_defense.py` exécute deux stratégies déterministes et affiche vagues survécues, fuites, victimes, score et pièces (sans lancer Pygame). Une stratégie basique **n'est pas une stratégie optimale** : utiliser ces mesures comme indicateur et faire tester plusieurs styles, puis ajuster les coûts, la puissance et les phases. L'amélioration doit être calibrée par des parties manuelles et des scénarios de référence.
+`python tools/balance_tower_defense.py` exécute trois stratégies déterministes (sans tours, quatre positions fixes et quatre positions avec améliorations) et affiche vagues survécues, fuites, victimes, score et pièces (sans lancer Pygame). Une stratégie basique **n'est pas une stratégie optimale** : utiliser ces mesures comme indicateur et faire tester plusieurs styles, puis ajuster les coûts, la puissance et les phases. L'amélioration doit être calibrée par des parties manuelles et des scénarios de référence.
 
 ## Tests et reprise Codex
 `python -m unittest discover -s tests -p "test_tower_defense.py" -v`. La CI inclut aussi la compilation de `tower-defense/main.py` et du moteur sans ouvrir de fenêtre. Tester ensuite une vraie session Pygame localement. Non testé graphiquement lors de la création.
