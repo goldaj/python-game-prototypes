@@ -17,7 +17,7 @@ def simulate(strategy, max_wave=8):
                 if tower.level<3:
                     game.upgrade(tower)
         game.start_wave()
-        for _ in range(5000):
+        for _ in range(8000):
             game.step(1/60)
             if game.phase!="active":break
         else:raise RuntimeError("Wave did not terminate")
