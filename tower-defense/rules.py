@@ -14,8 +14,8 @@ TOWERS = {
 ENEMIES = {
     "grunt": {"hp": 13, "speed": 72, "reward": 10, "leak": 1},
     "runner": {"hp": 9, "speed": 120, "reward": 12, "leak": 1},
-    "tank": {"hp": 38, "speed": 43, "reward": 17, "leak": 2},
-    "boss": {"hp": 190, "speed": 32, "reward": 90, "leak": 5},
+    "tank": {"hp": 38, "speed": 58, "reward": 17, "leak": 2},
+    "boss": {"hp": 190, "speed": 62, "reward": 90, "leak": 5},
 }
 
 
@@ -89,7 +89,7 @@ class Enemy:
 
     def travel(self, seconds):
         movement = ENEMIES[self.kind]["speed"] * min(0.1, max(0, seconds))
-        movement *= 0.55 if self.slow > 0 else 1.0
+        movement *= 0.7 if self.slow > 0 else 1.0
         self.slow = max(0, self.slow-seconds)
         # Consume the entire step at waypoints, with no tunnelling or premature exit.
         while movement > 0 and self.segment < len(PATH)-1:
