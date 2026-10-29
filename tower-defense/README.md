@@ -28,3 +28,13 @@ python main.py
 `python -m unittest discover -s tests -p "test_tower_defense.py" -v`. La CI inclut aussi la compilation de `tower-defense/main.py` et du moteur sans ouvrir de fenêtre. Tester ensuite une vraie session Pygame localement. Non testé graphiquement lors de la création.
 
 Prochaines fonctionnalités de valeur : prévisualisation fantôme de placement, niveau de difficulté adaptatif plafonné, styles de tourelles, sélections d'ennemis, cartes de chemins alternatives, journal détaillé de balance et sauvegarde méta si consentie. Ne pas supprimer `legacy_main.py` sans directive de l'utilisateur ; ne pas prétendre que les métriques déterministes garantissent un jeu équilibré.
+
+### Résultats mesurés sur les 8 premières vagues (CI, 2026-10-29)
+
+| Stratégie | Vague atteinte | Vies restantes | Ennemis tués | Fuites | Pièces |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Aucune tour | 3 | 0 | 0 | 20 | 245 |
+| 4 positions, sans amélioration | 8 | 0 | 90 | 13 | 1016 |
+| 4 positions, améliorations progressives | 9 | 15 | 104 | 1 | 393 |
+
+**Lecture** : sans tours, défaite rapide ; avec tours basiques, difficulté croissante ; avec améliorations, meilleur résultat mais coût réel sur la trésorerie. Stratégies fixes, pas d'optimisation, métriques déterministes issues de `tools/balance_tower_defense.py` et de la [CI](https://github.com/goldaj/python-game-prototypes/actions/runs/40851171246). Cela ne prouve pas un équilibrage final ; test joueur et stratégies diverses requis.
