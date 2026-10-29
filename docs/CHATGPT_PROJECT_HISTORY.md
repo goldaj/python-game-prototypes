@@ -30,3 +30,9 @@ Les transcriptions exactes des échanges précédents et leurs horaires ne sont 
 Contrôle syntaxique à froid AST des sept points d'entrée Pygame, avec workflow CI sans lancement graphique. Travail isolé sur `chatgpt/review-20261024`, base inchangée.
 
 **Validation et confiance** : confiance élevée dans la modification ciblée ; ne pas supposer des tests locaux exécutés. Vérifier GitHub Actions et comparer avec le travail Codex avant intégration. Ne pas fusionner automatiquement. Aucun secret ou contenu privé de manuscrit ajouté.
+
+## 2026-10-29 : évolution Tower Defense
+
+Utilisateur (verbatim, heure précise indisponible) : « Je ne te demande pas de créer une tâche planifiée qui continue chaque jour. Je te demande de continuer maintenant en boucle et de ne pas t'arrêter sur juste 3 améliorations alors qu'il y a plus de 40 repo et plusieurs améliorations possibles par repo ».
+
+Assistant (résumé non verbatim) : sélection du prototype Tower Defense après examen des jeux. Nouvelle économie, trois tours, vagues, boss non infini, cheminement déterministe, ciblage, état de défaite ; conservation de l'ancien code dans `tower-defense/legacy_main.py`. Tests purs et outil d'équilibrage ajoutés ; validation graphique Pygame encore nécessaire. Lire `tower-defense/README.md`.
